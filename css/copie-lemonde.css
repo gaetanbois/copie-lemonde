@@ -4,17 +4,16 @@
   margin: 0px;
   margin-left: 30px;
 }
+
 #icon {
   vertical-align: 10%;
-}
-address{
-  margin-top: 1em;
-  padding-top: 1em;
-  border-top:thick black;
 }
 
 header {
   padding: 14px 24px 12px 24px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
 }
 
 body {

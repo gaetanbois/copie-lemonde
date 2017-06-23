@@ -1,3 +1,4 @@
+/*Header*/
 #logo {
   width: 144px;
   height: 32px;
@@ -9,13 +10,51 @@
   vertical-align: 10%;
 }
 
+button {
+  float: right;
+  background-color: rgb(253, 214, 98);
+  border-color: transparent;
+  color: black;
+  font-weight: 700;
+  border-radius: 3px;
+  height: 32px;
+}
 header {
+  box-sizing: border-box;
   padding: 14px 24px 12px 24px;
   position: fixed;
   background-color: white;
   width: 100%;
+  border-bottom: 1px solid #e8eaee;
 }
+/*Fin header*/
+
+/*article*/
+
+article {
+  text-align: center;
+}
+.txt{
+  box-sizing: border-box;
+}
+
+.firstimg {
+  text-align: center;
+}
+.firstimg img {
+  height: 405.017px;
+}
+
+
+
+
+
 
 body {
 margin: 0px;
+}
+
+.placeholder {
+  height: 62px;
+  margin-top: 0px;
 }

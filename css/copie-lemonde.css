@@ -39,13 +39,16 @@ header {
 a {
   overflow: hidden;
   text-decoration:none;
-  padding-bottom: 20px;
   display: block;
-    border-bottom:1px solid #e8eaee;
 }
 
 #firstimg img {
     width: 100%;
+}
+
+#first-article {
+  padding-bottom: 20px;
+  border-bottom:1px solid #e8eaee;
 }
 
 h2 {
@@ -53,6 +56,15 @@ h2 {
   font-size: 24px;
   font-weight: 700;
   margin: 0px;
+}
+
+h3 {
+  font-weight: 700px;
+  font-family: georgia,serif;
+  color: rgb(56, 63, 78);
+  margin: 0px;
+  line-height:1.25;
+  display: inline;
 }
 
 main {
@@ -67,6 +79,12 @@ main {
   margin: 0px;
 }
 
+.img-small-article img {
+  float: right;
+  vertical-align: middle;
+  padding-left: 16px;
+  margin-top: 4px;
+}
 span {
   font-size: 14px;
   line-height: 21px;
@@ -74,6 +92,11 @@ span {
   font-family: Helvetica,Arial,sans-serif;
 }
 
+.small-article {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom:1px solid #e8eaee;
+}
 .txt {
   box-sizing: border-box;
 }
@@ -81,6 +104,10 @@ span {
 time {
   font-weight: 400;
 }
+
+
+
+
 
 body {
 margin: 0px;
@@ -97,4 +124,5 @@ p {
   line-height: 1.35;
   color: rgb(56, 63, 78);
   font-size: 14px;
+  padding-top: 4px;
 }
